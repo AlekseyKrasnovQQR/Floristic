@@ -1,0 +1,192 @@
+.cart{
+margin-top: 250px ;
+
+    h2{   
+        text-align: center;
+        width: 15.625vw;
+        margin: 0 auto;
+        font-weight: 400;
+        .border{
+            width: 4.427vw;
+            height: 0px;
+            border: 2px solid rgba(255, 255, 255, 1);
+            margin: 0 auto;
+            margin-top: 22px;     
+               
+        }
+    }
+    .cart-box{
+        padding-top: 60px;
+        width: 62.500vw ;
+        display: flex;
+        gap: 1.563vw  ;
+        margin: 0 auto;
+        .cart-title{
+            background-color: rgba(38, 40, 53, 1)            ;
+            position: relative;
+            width: 18.229vw;
+            height: 210px;
+            .vector-right{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                transform: rotate(180deg);
+                margin-bottom: 10px;
+                margin-right: 10px ;
+            }
+            .vector-left{
+                position: absolute;
+                left: 0;
+                top: 0;
+               
+                margin-top: 10px;
+                margin-left: 0.521vw ;
+            }
+            .price{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                margin-bottom: 10px;
+                margin-left: 0.521vw;
+            }
+            .cart-id{
+                position: absolute;
+                right: 0;
+                top: 0; 
+                margin-top: 10px;
+                margin-right: 0.521vw ;
+            }
+            .cart-logo{
+                width: 10.417vw;
+                height: 60px;
+                position: absolute;
+                left: 20%;
+                bottom: 35%;
+            }
+        }
+
+    }
+    .cart-item{
+        width: 18.229vw;
+        background-color: rgba(40, 16, 20, 1); 
+        h3{
+             padding-top: 70px    ;
+             margin: 0 auto;
+             text-align: center;
+             font-weight: 400;
+             line-height: 27px;
+             width: 15.365vw;
+        }
+        .pep{
+            width: 15.937vw;
+            display: block;
+            margin: 0 auto;
+            margin-top: 24px;
+            margin-bottom: 30px;
+        }
+        .cart-btn{
+            background-color: rgba(255, 255, 255, 0) ;
+            border: rgba(255, 255, 255, 1) 1px solid ;  
+            padding: 17px;
+            cursor: pointer;
+            width: 6.771vw;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+#cart__one{
+    margin-top: 60px;
+}
+#cart__two{
+    width: 21.875vw;
+    height: 700px;
+    .cart-title{
+        background-color: rgba(10, 10, 14, 1);
+        width: 21.875vw;
+        height: 264px ;
+        .cart-logo{
+            left: 26%;
+            bottom: 40%;
+        }
+    }
+
+}
+#cart__three{
+    margin-top: 60px;
+    .cart-title{
+        background-color: rgba(16, 17, 22, 1)    ;
+    }
+}
+
+@media (max-width: 1300px) {
+    .cart{
+        padding-bottom: 10px;
+        .cart-box{
+            display: block;
+            
+            .cart-title{
+                width: 35vw;
+                .cart-logo{
+                    left: 35%;
+                }
+            }
+        }
+        .cart-item{
+            margin: 0 auto;
+            width: 35vw;
+            height: 700px;
+            .cart-btn{
+                width: auto;
+            }
+        }
+        
+    }
+    #cart__two{
+        margin-top: 60px;
+       width: 35vw;
+       .cart-title{
+        width: 35vw;
+        .cart-logo{
+            left: 35%;
+        }
+       }
+    }
+}
+@media (max-width: 700px){
+    .cart{
+        h2{
+            width: 50vw;
+        }
+        .cart-box{
+            display: block;
+            
+            .cart-title{
+                width: 50vw;
+                .cart-logo{
+                    left: 40%;
+                }
+            }
+        }
+        .cart-item{
+            margin: 0 auto;
+            width: 50vw;
+            height: 700px;
+            .cart-btn{
+                width: auto;
+            }
+        }
+        
+    }
+    #cart__two{
+        margin-top: 60px;
+       width: 50vw;
+       .cart-title{
+        width: 50vw;
+        .cart-logo{
+            left: 40%;
+        }
+       }
+    
+    }
+}

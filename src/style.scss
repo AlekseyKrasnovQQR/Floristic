@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Forum&display=swap');
+@import './style_components/header';
+@import './style_components/main';
+@import './style_components/actions';
+@import './style_components/composition';
+@import './style_components/cart';
+@import './style_components/partners';
+@import './style_components/footer';
+*{
+    margin: 0;
+    padding: 0;
+    color: #FFFF;
+}
+body{
+    color: aqua;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Forum', cursive;
+}
