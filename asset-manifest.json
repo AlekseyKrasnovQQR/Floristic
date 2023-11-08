@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Floristic/static/css/main.f4ebe47f.css",
-    "main.js": "/Floristic/static/js/main.90af2367.js",
+    "main.js": "/Floristic/static/js/main.a938d5b8.js",
     "static/media/background_header.jpg": "/Floristic/static/media/background_header.4af1e134f0e74512a0d5.jpg",
     "index.html": "/Floristic/index.html",
     "main.f4ebe47f.css.map": "/Floristic/static/css/main.f4ebe47f.css.map",
-    "main.90af2367.js.map": "/Floristic/static/js/main.90af2367.js.map"
+    "main.a938d5b8.js.map": "/Floristic/static/js/main.a938d5b8.js.map"
   },
   "entrypoints": [
     "static/css/main.f4ebe47f.css",
-    "static/js/main.90af2367.js"
+    "static/js/main.a938d5b8.js"
   ]
 }
